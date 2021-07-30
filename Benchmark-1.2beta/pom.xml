@@ -115,7 +115,7 @@
                                 <configuration>
                                     <target>
                                         <ant target="run" antfile="${basedir}/src/config/build.xml">
-                                            <reference torefid="maven.compile.classpath" refid="maven.compile.classpath" />
+                                            <reference torefid="maven.compile.classpath" refid="maven.compile.classpath"/>
                                         </ant>
                                     </target>
                                 </configuration>
@@ -181,7 +181,7 @@
                                 <configuration>
                                     <target>
                                         <ant target="run" antfile="${basedir}/src/config/build.xml">
-                                            <reference torefid="maven.compile.classpath" refid="maven.compile.classpath" />
+                                            <reference torefid="maven.compile.classpath" refid="maven.compile.classpath"/>
                                         </ant>
                                     </target>
                                 </configuration>
@@ -247,7 +247,7 @@
                                 <configuration>
                                     <target>
                                         <ant target="run" antfile="${basedir}/src/config/build.xml">
-                                            <reference torefid="maven.compile.classpath" refid="maven.compile.classpath" />
+                                            <reference torefid="maven.compile.classpath" refid="maven.compile.classpath"/>
                                         </ant>
                                     </target>
                                 </configuration>
@@ -314,7 +314,7 @@
                                 <configuration>
                                     <target>
                                         <ant target="run" antfile="${basedir}/src/config/build.xml">
-                                            <reference torefid="maven.compile.classpath" refid="maven.compile.classpath" />
+                                            <reference torefid="maven.compile.classpath" refid="maven.compile.classpath"/>
                                         </ant>
                                     </target>
                                 </configuration>
@@ -416,7 +416,7 @@
                                                 </goals>
                                             </pluginExecutionFilter>
                                             <action>
-                                                <ignore />
+                                                <ignore/>
                                             </action>
                                         </pluginExecution>
                                         <pluginExecution>
@@ -519,7 +519,7 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-entitymanager</artifactId>
-            <version>3.3.2.GA</version>
+            <version>3.6.10.Final</version>
         </dependency>
 
         <dependency>
